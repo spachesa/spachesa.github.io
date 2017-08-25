@@ -21,6 +21,9 @@ button {
   font-family: sans-serif;
 }
 
+ul {
+} list-style-type: none;
+
 img {
   max-width: 60%;
 }
