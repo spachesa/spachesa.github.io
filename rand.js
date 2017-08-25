@@ -21,6 +21,7 @@ var students = [
   "John",
   "Shonica",
   "Krystal"
+  "Stephanie"
 ];
 
 var colors = [
