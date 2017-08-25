@@ -50,6 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
     li.innerText = students[i];
     aList.append(li);
   }
+  
+  console.log('HERE')
 });
 
 var pickOnClick = function (event) {
