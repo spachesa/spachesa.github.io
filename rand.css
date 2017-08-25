@@ -4,23 +4,23 @@ html {
 }
 
 body {
-  font-size: 24px;
-  width: 25em;
+  font-size: 80px;
+  width: 50em;
   margin: 0 auto;
   padding: 0.5em 0;
 
-  height: 100vh;
+  height: 80vh;
 
-  font-family: monospace;
-  background-color: lightblue;
+  font-family: sans-serif;
+  background-color: #E6ADAD;
   text-align: center;
 }
 
 button {
-  font-size: 24px;
-  font-family: monospace;
+  font-size: 52px;
+  font-family: sans-serif;
 }
 
 img {
-  max-width: 60%;
+  max-width: 10%;
 }
