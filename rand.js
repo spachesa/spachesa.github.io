@@ -66,7 +66,7 @@ var pickOnClick = function (event) {
       return;
     }
     if (colors[cur]) header.style.color = colors[cur];
-    if (colors[cur-1]) body.style.backgroundColor = colors[cur-1];
+    if (colors[cur+1]) body.style.backgroundColor = colors[cur+1];
     cur += 1;
   }, 200);
 }
