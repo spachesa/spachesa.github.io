@@ -37,11 +37,11 @@ var cur = 0;
 
   body = document.getElementById('body');
   header = document.getElementById('header');
-  pickButton = document.getElementById('pickButton');
+  PAIRSButton = document.getElementById('PAIRSButton');
   choice = document.getElementById('choice');
   aList = document.getElementById('aList');
 
-  pickButton.addEventListener('click', pickOnClick );
+  PAIRSButton.addEventListener('click', pickOnClick );
   aList.addEventListener('click', aListOnClick );
 
   // build the attendance list
