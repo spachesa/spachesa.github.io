@@ -1,4 +1,3 @@
-
 var pickButton;
 var header;
 var body;
@@ -21,9 +20,7 @@ var students = [
   "Kyla",
   "John",
   "Shonica",
-  "Krystal",
-  "Stephanie
-  
+  "Krystal"
 ];
 
 var colors = [
