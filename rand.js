@@ -1,3 +1,4 @@
+
 var pickButton;
 var header;
 var body;
@@ -20,8 +21,9 @@ var students = [
   "Kyla",
   "John",
   "Shonica",
-  "Krystal"
-  "Stephanie"
+  "Krystal",
+  "Stephanie
+  
 ];
 
 var colors = [
@@ -33,7 +35,7 @@ var colors = [
 ];
 var cur = 0;
 
-document.addEventListener('DOMContentLoaded', () => {
+
   console.log('hello rand.js');
 
   body = document.getElementById('body');
@@ -51,9 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
     li.innerText = students[i];
     aList.append(li);
   }
-  
-  console.log('HERE')
-});
 
 var pickOnClick = function (event) {
   choice.innerHTML = '&nbsp;'
