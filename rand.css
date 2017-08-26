@@ -1,20 +1,34 @@
-<!doctype html>
-<html>
+html {
+  margin: 0;
+  padding: 0;
+}
 
-<head>
-  <title>Steph's Random Student Picker</title>
-  <script src="rand.js" defer></script>
-  <link href="rand.css" type="text/css" rel="stylesheet">
-  <meta name="viewport" content="width=600">
-</head>
+body {
+  font-size: 24px;
+  width: 25em;
+  margin: 0 auto;
+  padding: 0.5em 0;
 
-<body id="body">
-  <h1 id="header">Steph's Random Student Picker</h1>
-  <button id="pickButton">PICK</button>
-  <h3 id="choice">&nbsp;</h3>
-  <img src="MKOAFO.png">
-  <h3 id="attendance">Attendance</h3>
-  <ul id="aList"></ul>
-</body>
+  height: 100vh;
 
-</html>
+  font-family: monospace;
+  background-color: darkblue;
+  text-align: center;
+  
+}
+
+button {
+  font-size: 20px;
+  font-family: Courier, Courier, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  background-color: lightblue;
+  text-decoration-color: darkblue;
+}
+
+img {
+  max-width: 60%;
+}
+
