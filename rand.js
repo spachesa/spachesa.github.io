@@ -53,7 +53,9 @@ var cur = 0;
 
 var pickOnClick = function (event) {
   choice.innerHTML = '&nbsp;'
+  console.log("Students before splice", students)
   var rand = students.splice[Math.floor(Math.random() * students.length), 1];
+  console.log("Students after splice", students)
   var x = window.setInterval(() => {
     if (colors[cur] === undefined) {
       window.clearInterval(x);
